@@ -1,0 +1,7 @@
+virtualenv (1.6.4-1) unstable; urgency=low
+
+  * Adopt official debianization from unstable.
+  * Update pathces to reflect changes in virtualenv 1.6.4. 
+
+ -- Alexander Saltanov <asd@mokote.com>  Sat, 20 Aug 2011 18:46:20 +0400
+

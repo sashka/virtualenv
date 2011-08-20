@@ -1,0 +1,22 @@
+Source: virtualenv
+Section: python
+Priority: optional
+X-Python-Version: >= 2.5
+Maintainer: Alexander Saltanov <asd@mokote.com>
+Uploaders: Carl Chenet <chaica@ohmytux.com>, Jeff Licquia <licquia@debian.org>
+Homepage: http://pypi.python.org/pypi/virtualenv
+Vcs-Git: git://github.com/sashka/virtualenv.git
+Vcs-Browser: https://github.com/sashka/virtualenv
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6.6-3)
+Build-Depends-Indep: python-setuptools
+Standards-Version: 3.9.1.0
+
+Package: python-virtualenv
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources, python-setuptools
+Recommends: python-pip (>= 0.7.2)
+Description: Python virtual environment creator
+ The virtualenv utility creates virtual Python instances, each invokable
+ with its own Python executable.  Each instance can have different sets
+ of modules, installable via easy_install.  Virtual Python instances can 
+ also be created without root access.
