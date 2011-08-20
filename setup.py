@@ -51,7 +51,7 @@ setup(name='virtualenv',
       license='MIT',
       py_modules=['virtualenv'],
       packages=['virtualenv_support'],
-      package_data={'virtualenv_support': ['*-py%s.egg' % sys.version[:3], '*.tar.gz']},
+      #package_data={'virtualenv_support': ['*-py%s.egg' % sys.version[:3], '*.tar.gz']},
       test_suite='nose.collector',
       tests_require=['nose', 'Mock'],
       **kw
